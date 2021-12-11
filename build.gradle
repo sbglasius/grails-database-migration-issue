@@ -7,7 +7,7 @@ buildscript {
         classpath "org.grails.plugins:hibernate5:7.1.0"
         classpath "gradle.plugin.com.github.erdi.webdriver-binaries:webdriver-binaries-gradle-plugin:2.6"
         classpath "com.bertramlabs.plugins:asset-pipeline-gradle:3.3.4"
-        classpath 'org.grails.plugins:database-migration:4.0.0-RC1'
+        classpath 'org.grails.plugins:database-migration:4.0.0-RC2'
     }
 }
 
@@ -75,7 +75,7 @@ dependencies {
     testRuntimeOnly "org.seleniumhq.selenium:selenium-chrome-driver:3.141.59"
     testRuntimeOnly "org.seleniumhq.selenium:selenium-firefox-driver:3.141.59"
 
-    implementation 'org.grails.plugins:database-migration:4.0.0-RC1'
+    implementation 'org.grails.plugins:database-migration:4.0.0-RC2'
     implementation 'org.liquibase:liquibase-core:4.6.1'
 
 }
